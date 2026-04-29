@@ -7,7 +7,7 @@ In this first week you will:
 1. **Set up** Bitcoin Core and Core Lightning (CLN) nodes using Docker.
 2. **Interact** with both Bitcoin Core and Lightning nodes on `regtest`.
 3. **Fund** a Lightning node and create a BOLT11 invoice.
-4. **Output** a small report file named (`out.txt`) in the **current dicectory** demonstrating you can fund a Lightning node and generate valid invoices.
+4. **Output** a small report file named (`out.txt`) in the **current directory** demonstrating you can fund a Lightning node and generate valid invoices.
 5. **Target Locations** for the solution code for each language are given below:
    - Bash: [solution.sh](./bash/solution.sh)
    - JavaScript: [index.js](./javascript/index.js)
@@ -55,7 +55,7 @@ Your program must:
 
 - Create a new Lightning address
 
-- Create a mining wallet exists and generate a new address from the mining wallet
+- Check a mining wallet exists or create it, and generate a new address from the mining wallet
 - Mine new blocks to this address until you get positive wallet balance. (use `generatetoaddress`) (observe how many blocks it took to get to a positive balance)
 - Write a short comment describing why wallet balance for block rewards behaves that way.
 
