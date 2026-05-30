@@ -1,4 +1,4 @@
-# Mastering Lightning Network - Week 1: Generating Lightning Invoice
+# Mastering Lightning Network - Exercise 1: Generating Lightning Invoice
 
 ## Overview
 
